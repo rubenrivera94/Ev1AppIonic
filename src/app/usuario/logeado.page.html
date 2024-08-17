@@ -1,0 +1,40 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button text="Regresar" defaultHref="/"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Perfil del Usuario</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <!-- Contenedor para el menú y el contenido del perfil -->
+  <div class="content-container" >
+    <!-- Menu de navegación -->
+    <app-menu style="width: 100%;"></app-menu>
+  </div>
+
+    <!-- Contenedor para la foto de perfil y la información del usuario -->
+    <div class="profile-container">
+      <!-- Imagen de perfil -->
+      <ion-avatar class="profile-avatar">
+        <img src="../assets/img/default.png" alt="Foto de perfil">
+      </ion-avatar>
+
+      <!-- Tarjeta con la información del usuario -->
+      <ion-card class="profile-card">
+        <ion-card-header>
+          <ion-card-title>Nombre del Usuario</ion-card-title>
+        </ion-card-header>
+
+        <ion-card-content>
+          <p><strong>Nombre:</strong> Juan</p>
+          <p><strong>Apellido:</strong> Pérez</p>
+          <p><strong>Celular:</strong> +123 456 7890</p>
+          <p><strong>Email:</strong> juan.perezexample.com</p>
+          <!-- Otros detalles -->
+        </ion-card-content>
+      </ion-card>
+    </div>
+ 
+</ion-content>

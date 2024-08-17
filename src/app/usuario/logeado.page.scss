@@ -1,0 +1,32 @@
+/* contenedor ocupa toda la pantalla */
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Centra el contenido horizontalmente */
+    padding: 16px;
+}
+
+/* Ajustar imagen perfil */
+.profile-avatar {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 120px;
+    /* Tamaño del avatar */
+    height: 120px;
+    /* Tamaño del avatar */
+}
+
+/* Ajustar el estilo de la tarjeta del perfil */
+.profile-card {
+    width: 100%;
+    /* Ocupa todo el ancho del contenedor */
+    max-width: 500px;
+    /* Ancho máximo para mejorar la legibilidad */
+}
+
+/* Ajustar el contenido del perfil */
+.profile-card p {
+    margin: 8px 0;
+    /* Espaciado entre líneas de contenido */
+}
